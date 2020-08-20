@@ -1,0 +1,21 @@
+// Network settings
+const char* ssid = "";
+const char* password = "";
+const char* espName = "";
+
+// Endpoint settings
+const char* mqtt_server = "";
+const char* mqtt_user = "";
+const char* mqtt_password = "";
+const char* mqtt_clientId = "";
+
+// Available Topics
+const char* topic_humidity = "weather1/humidity";
+const char* topic_temperature = "weather1/temperature";
+const char* topic_pressure = "weather1/pressure";
+
+// Minutes to sleep between updates
+int minutes2sleep = 15;
+
+String userAgent = "pr0gstar-Wifi Weatherstation - MQTT-Client";
+String clientVer = "1.0";
